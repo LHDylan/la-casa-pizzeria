@@ -1,0 +1,37 @@
+Nos Pizzas
+MARGARITA10 €
+Tomate, mozzarella, basilic, huile d'olive
+COCOTTE11 €
+Tomate, mozzarella, deux ceufs, basilic, huile d'olive
+REGINA 12 €
+Tomate, mozzarella, jambon blanc, champignons
+4 FROMAGES 13 €
+Tomate, mozzarella, fromage de chèvre, gorgonzola, parmezan
+SERRANO 13 €
+Tomate, mozzarella, tomates cerises, serrano, parmezan, roquette
+CALZONE 13 €
+Tomate, mozzarella, jambon blanc, champignons, ceuf
+CHEVRE-MIEL 13 €
+Crème fraîche, mozzarella, fromage de chèvre, miel
+CHORIZO 13 €
+Tomate, mozzarella, chorizo, poivrons
+COPPA 13 €
+Tomate, mozzarella, coppa, chèvre, roquette
+VENTRECHE 13 €
+Tomate, mozzarella, ventrêche, deux oeufs
+LA CAZA 14 €
+Crème fraîche, mozzarella, jambon blanc, fourme d'Amber, champignons
+POULET MOUTARDE 14 €
+Crème fraîche, mozzarella, moutarde, poulet, champignons
+CALZONE PLUS 14 €
+Tomate, mozzarella, jambon blanc, viande hachée, champignons, ceuf
+TRUITE DES PYRENEES 14 €
+Crème fraîche, mozzarella, gorgonzola, truite fumée des Pyrénées, citron, roquette, huile d'olive
+CALZONE CAMEMBERT 15 €
+Tomate, mozzarella, camembert, jambon blanc, huile d'olive
+TRUFFE 15 €
+Tomate, mozzarella, serrano, fromage de vache à la truffe, roquette, huile d'olive
+BURRATA 15 €
+Tomate, mozzarella, burrata, serrano, roquette, crème balsamique 
+Supplément(s) d'ingrédient(s) 1,50 €
+

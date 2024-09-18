@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.corner-decoration-top-right {
+    position: absolute;
+    width: 333px; /* Adjust size as needed */
+    height: 333px; /* Adjust size as needed */
+    background-color: rgba(242, 208, 170, 0.6); /* Light beige with slight transparency */
+    border-radius: 100% 0% 0% 100% / 0% 0% 100% 100%;
+  }
+
+  .corner-decoration-bottom-left {
+    position: absolute;
+    width: 333px; /* Adjust size as needed */
+    height: 333px; /* Adjust size as needed */
+    background-color: rgba(242, 208, 170, 0.3); /* Light beige with slight transparency */
+    border-radius: 0% 100% 100% 0% / 100% 100% 0% 0%;
+  }
+
+  .left-decoration {
+    position: absolute;
+    width: 666px; /* Adjust size as needed */
+    height: 666px; /* Adjust size as needed */
+    background-color: rgba(242, 208, 170, 0.2); /* Light beige with slight transparency */
+    border-radius: 100% 100% 100% 100%;
+  }
+
+  .right-decoration {
+    position: absolute;
+    width: 666px; /* Adjust size as needed */
+    height: 666px; /* Adjust size as needed */
+    background-color: rgba(242, 208, 170, 0.4); /* Light beige with slight transparency */
+    border-radius: 100% 100% 100% 100%;
+  }
+
+  .triangle{
+    position: absolute;
+    width: 555px; /* Adjust size as needed */
+    height: 555px; /* Adjust size as needed */
+    background-color: rgba(141, 69, 55, 0.4); /* Light beige with slight transparency */
+    border-radius: 100% 100% 100% 100%;
+    translate: 55px 55px;
+  }
+
+  .top-decoration {
+    position: absolute;
+    width: 444px; /* Adjust size as needed */
+    height: 222px; /* Adjust size as needed */
+    z-index: -1;
+    background-color: rgba(242, 208, 170, 0.6); /* Light beige with slight transparency */
+    border-bottom-left-radius: 222px;
+    border-bottom-right-radius: 222px;
+  }
+
+  .bottom-decoration {
+    position: absolute;
+    width: 444px; /* Adjust size as needed */
+    height: 222px; /* Adjust size as needed */
+    z-index: -1;
+    background-color: rgba(242, 208, 170, 0.3); /* Light beige with slight transparency */
+    border-top-left-radius: 222px;
+    border-top-right-radius: 222px;
+  }

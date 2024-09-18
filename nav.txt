@@ -1,0 +1,44 @@
+<template>
+  <header class="fixed inset-x-0 top-0 z-50 bg-white bg-opacity-80 backdrop-blur-md shadow-md">
+    <nav class="flex items-center justify-between p-3 lg:px-8" aria-label="Global">
+      <!-- Burger Icon for Mobile -->
+      <div class="lg:hidden">
+        <button @click="menuOpen = !menuOpen" class="text-gray-900">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      <!-- Regular Links for Desktop -->
+      <div class="hidden lg:flex lg:gap-x-12">
+        <nuxt-link href="#about" class="text-sm font-semibold leading-6 text-gray-900">À propos</nuxt-link>
+        <nuxt-link href="#menu" class="text-sm font-semibold leading-6 text-gray-900">Menu</nuxt-link>
+        <nuxt-link href="#gallery" class="text-sm font-semibold leading-6 text-gray-900">Galerie</nuxt-link>
+        <nuxt-link href="#testimonials" class="text-sm font-semibold leading-6 text-gray-900">Témoignages</nuxt-link>
+        <nuxt-link href="#contact" class="text-sm font-semibold leading-6 text-gray-900">Contact</nuxt-link>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <transition name="fade">
+      <div v-if="menuOpen" class="fixed inset-0 z-40 bg-black bg-opacity-75">
+        <div class="flex flex-col items-center justify-center h-full space-y-6">
+          <nuxt-link href="#about" class="text-white text-2xl">À propos</nuxt-link>
+          <nuxt-link href="#menu" class="text-white text-2xl">Menu</nuxt-link>
+          <nuxt-link href="#gallery" class="text-white text-2xl">Galerie</nuxt-link>
+          <nuxt-link href="#testimonials" class="text-white text-2xl">Témoignages</nuxt-link>
+          <nuxt-link href="#contact" class="text-white text-2xl">Contact</nuxt-link>
+          <!-- Quick Links -->
+          <a href="tel:+33123456789" class="text-[#f2d0aa] text-2xl">Appeler</a>
+          <a href="https://maps.google.com" class="text-[#f2d0aa] text-2xl">Google Maps</a>
+          <a href="https://waze.com" class="text-[#f2d0aa] text-2xl">Waze</a>
+        </div>
+      </div>
+    </transition>
+  </header>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+const menuOpen = ref(false)
+</script>
